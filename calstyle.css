@@ -1,0 +1,79 @@
+body{
+    padding-top: 50px;
+    background-color: rgb(172, 172, 212);
+}
+h1.text{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+   text-align: center;
+   color: aliceblue;
+   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+div{
+    text-align: center;
+    padding-left: 8rem;
+    /*background-color: red;*/
+    
+}
+.container-1{
+    margin: auto;
+    width: 50%;
+}
+
+.calculator{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 20rem;
+    height: 25rem;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.display-box{
+    width: 18rem;
+    height: 5rem;
+    padding: 7px;
+    border: 0px solid white;
+    opacity: 0.5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#btn{
+    width: 4rem;
+    padding: 7px;
+    border: 0px solid white;
+    background-color: rgba(221, 221, 221, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+#btn:hover{background-color: blueviolet;}
+#btn-b{
+    width: 4rem;
+    padding: 7px;
+    background-color: pink;
+    border: 0px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+#btn-b:hover{background-color: blueviolet;}
+#btn-0{
+    width: 9rem;
+    padding: 7px;
+    border: 0px solid white;
+    background-color: rgba(221, 221, 221, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+#btn-0:hover{background-color: blueviolet;}
+#btn-eql{
+    width: 9rem;
+    padding: 7px;
+    background-color: orangered;
+    border: 0px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+#btn-eql:hover{background-color: rgb(2, 102, 45);}
+#result{
+    font-size: larger;
+    font-weight: bold;
+}
